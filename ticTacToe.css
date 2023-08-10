@@ -270,6 +270,23 @@ body {
 }
 
 /* Footer_CSS */
+/* For screens up to 576px wide (covers most smartphones) */
+@media (max-width: 576px) {
+	#container-footer {
+		text-align: center;
+	}
+
+	.footer-icon {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	.footer-icon li {
+		margin: 5px 10px;
+	}
+}
 
 footer {
 	width: 100%;
